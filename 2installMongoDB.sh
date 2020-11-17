@@ -44,5 +44,5 @@ echo "=> Installation PHP MongoDB Driver "
 sudo apt-get install php-dev
 sudo apt-get install php-xml
 sudo pecl install mongodb
-echo "extension=mongodb.so" >> /etc/php/7.3/apache2/php.ini
+sed -i "2i\extension=mongodb.so\n" /etc/php/7.3/apache2/php.ini
 composer require mongodb/mongodb
