@@ -1,6 +1,0 @@
-si pb avec ligne avec var logs denied
--> ce mettre en su
-->rm -R /var/logs
-->rm -R /var/cache
-c parce que le www-data (user apache) n'a pas les droits
-du coup a la racine, -> chmod -R cocorico
